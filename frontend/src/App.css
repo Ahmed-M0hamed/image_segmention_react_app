@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: black;
+  padding: 10px;
+}
+
+img {
+  width: 550px ; 
+  height: 450px;
+  border-radius: 10px;
+  margin: none;
+}
+
+.uploder {
+  display: none;
+} 
+.select {
+  margin : 10px;
+  width: 200px;
+  height: 40px;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #4072bd 0%, #3c69bd 100%);
+  background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.loading {
+  margin : 10px;
+  
+  width: 180px;
+  height: 40px;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #2f5894 0%, #173b7c 100%);
+  background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.segment {
+
+  margin : 10px;
+  width: 180px;
+  height: 40px;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #2f5894 0%, #173b7c 100%);
+  background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+h2 {
+  color: white;
+  margin: 5px 0px 5px 0px;
+}
+p {
+  color: white;
+  margin: 0px; 
+  font-weight: bold;
+  font-size: large;
+}
+.column {
+  float: left;
+  width: 49%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
